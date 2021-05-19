@@ -12,16 +12,19 @@
   }
 })(this, function (module, exports) {
   "use strict";
+
   Object.defineProperty(exports, "__esModule", {
     value: true,
   });
 
   var _class, _temp;
+
   function _classCallCheck(instance, Constructor) {
     if (!(instance instanceof Constructor)) {
       throw new TypeError("Cannot call a class as a function");
     }
   }
+
   var _createClass = (function () {
     function defineProperties(target, props) {
       for (var i = 0; i < props.length; i++) {

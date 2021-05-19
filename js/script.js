@@ -1,4 +1,6 @@
-new WOW().init();
+$(function(){
+    //wow js
+    new WOW ().init()
 
 ///ハンバーガーメニュー
 
@@ -28,6 +30,8 @@ jQuery('a[href^="#"]').on("click", function () {
     300
   );
 });
+
+new WOW().init();
 
 //トップの点滅文字
 
@@ -82,3 +86,4 @@ jQuery('.js-open-button').on('click',function(e){
   var target = jQuery(this).data('target');
   jQuery(target).show();
 });
+})
